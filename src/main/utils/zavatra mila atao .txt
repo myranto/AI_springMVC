@@ -1,0 +1,19 @@
+zavatra mila atao : 
+	1) Intelligence artificielle, c' est quoi?
+ -categorie : 
+	-les ai en generale
+	-ai faible (reco vocal,traduction de langue,detection d'objet dans une image) 
+	-les ai fortes ou generales:
+ont des capacites cognitives
+	2) Zavatra afaka atao momba ilay site d'information
+=>cote frot office : 
+-misy liste d'information sur l'intelligence artificielle
+=>cote back office : 
+-login
+-creer article
+-list article
+-recherche
+-filtre article creer/publier
+-titre, contenu, auteur date
+-gestion contenus
+	3)language : java springMVC,postgreSQL

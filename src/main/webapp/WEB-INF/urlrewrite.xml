@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite
+        PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<urlrewrite>
+    <rule>
+        <from>^/ai/information/publication-(.*).html$</from>
+        <to>/detail_info?id=$1</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/publication_retirer-(.*).html$</from>
+        <to>/retirer_pub?id=$1</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/publication_valider.html$</from>
+        <to>/setpubliate</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/ownpub-(.*).html$</from>
+        <to>/ownpub?id=$1</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/connexion.html$</from>
+        <to>/login</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/create_publication.html$</from>
+        <to>/create</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/creation_result.html$</from>
+        <to>/create_info</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/deconnexion-(.*).html$</from>
+        <to>/logout?id=$1</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/list_information.html$</from>
+        <to>/list_info</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/list_information-(.*).html$</from>
+        <to>/list_info?first=$1</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/register.html$</from>
+        <to>/register</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/inscription.html$</from>
+        <to>/inscription</to>
+    </rule>
+    <rule>
+        <from>^/ai/information/access.html$</from>
+        <to>/validate_login</to>
+    </rule>
+    <rule>
+        <from>^/?.*/?.*-([_a-z0-9]*)-([_a-z0-9]*).html$</from>
+        <to>/index</to>
+    </rule>
+</urlrewrite>
